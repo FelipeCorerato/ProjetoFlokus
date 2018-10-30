@@ -1,0 +1,462 @@
+F:\ProjetoPratica\ProjetoPratica\bin\ApplicationInsights.config
+F:\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.dll.config
+F:\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.dll
+F:\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.pdb
+F:\ProjetoPratica\ProjetoPratica\bin\Antlr3.Runtime.dll
+F:\ProjetoPratica\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+F:\ProjetoPratica\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Web.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Newtonsoft.Json.dll
+F:\ProjetoPratica\ProjetoPratica\bin\System.Web.Optimization.dll
+F:\ProjetoPratica\ProjetoPratica\bin\WebGrease.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ProjetoPratica\ProjetoPratica\bin\System.Web.Optimization.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Antlr3.Runtime.pdb
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Newtonsoft.Json.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Web.xml
+F:\ProjetoPratica\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+F:\ProjetoPratica\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+F:\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+F:\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+F:\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+F:\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.Owin.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Owin.dll
+F:\ProjetoPratica\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\ProjetoPratica\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Owin.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17175\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\pratotica\pratotica\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+G:\Flokus\ProjetoPratica\bin\ApplicationInsights.config
+G:\Flokus\ProjetoPratica\bin\ProjetoPratica.dll.config
+G:\Flokus\ProjetoPratica\bin\ProjetoPratica.dll
+G:\Flokus\ProjetoPratica\bin\ProjetoPratica.pdb
+G:\Flokus\ProjetoPratica\bin\Antlr3.Runtime.dll
+G:\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+G:\Flokus\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.Owin.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+G:\Flokus\ProjetoPratica\bin\Newtonsoft.Json.dll
+G:\Flokus\ProjetoPratica\bin\Owin.dll
+G:\Flokus\ProjetoPratica\bin\System.Web.Optimization.dll
+G:\Flokus\ProjetoPratica\bin\WebGrease.dll
+G:\Flokus\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.Owin.xml
+G:\Flokus\ProjetoPratica\bin\System.Web.Optimization.xml
+G:\Flokus\ProjetoPratica\bin\Antlr3.Runtime.pdb
+G:\Flokus\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+G:\Flokus\ProjetoPratica\bin\Newtonsoft.Json.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+G:\Flokus\ProjetoPratica\bin\Microsoft.AI.Web.xml
+G:\Flokus\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+G:\Flokus\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+G:\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+G:\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+G:\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+G:\Flokus\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+G:\FlokusLetti\ProjetoPratica\bin\ApplicationInsights.config
+G:\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.dll.config
+G:\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.dll
+G:\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.pdb
+G:\FlokusLetti\ProjetoPratica\bin\Antlr3.Runtime.dll
+G:\FlokusLetti\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+G:\FlokusLetti\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Web.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.Owin.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+G:\FlokusLetti\ProjetoPratica\bin\Newtonsoft.Json.dll
+G:\FlokusLetti\ProjetoPratica\bin\Owin.dll
+G:\FlokusLetti\ProjetoPratica\bin\System.Web.Optimization.dll
+G:\FlokusLetti\ProjetoPratica\bin\WebGrease.dll
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.Owin.xml
+G:\FlokusLetti\ProjetoPratica\bin\System.Web.Optimization.xml
+G:\FlokusLetti\ProjetoPratica\bin\Antlr3.Runtime.pdb
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+G:\FlokusLetti\ProjetoPratica\bin\Newtonsoft.Json.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+G:\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Web.xml
+G:\FlokusLetti\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+G:\FlokusLetti\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+G:\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+G:\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+G:\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+G:\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\FlokusLetti\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Owin.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17193\Desktop\Flokus- erro no gv\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\ApplicationInsights.config
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\ProjetoPratica.dll.config
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\ProjetoPratica.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\ProjetoPratica.pdb
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Antlr3.Runtime.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.Web.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.Owin.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Newtonsoft.Json.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Owin.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\System.Web.Optimization.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\WebGrease.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.Owin.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\System.Web.Optimization.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Antlr3.Runtime.pdb
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Newtonsoft.Json.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\Microsoft.AI.Web.xml
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\obj\Debug\ProjetoPratica.csprojResolveAssemblyReference.cache
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\obj\Debug\ProjetoPratica.csproj.CoreCompileInputs.cache
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\obj\Debug\ProjetoPratica.dll
+C:\Users\u17175\Desktop\Flokus- recente\ProjetoPratica\obj\Debug\ProjetoPratica.pdb
