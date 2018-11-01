@@ -13,6 +13,7 @@
             <br />
             <asp:Button ID="btnCancelar" runat="server" OnClick="btnCancelar_Click" Text="Cancelar e Voltar" CausesValidation="False" />
             <br />
+            <asp:Label ID="Label1" runat="server" Text="-"></asp:Label>
             <br />
             &quot;Os campos com * são obrigatórios&quot;<br />
             <br />

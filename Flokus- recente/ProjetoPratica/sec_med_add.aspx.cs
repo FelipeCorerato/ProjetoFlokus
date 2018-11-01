@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using ProjetoPratica.App_Start;
@@ -23,7 +24,15 @@ namespace ProjetoPratica
 
         protected void btnInserir_Click(object sender, EventArgs e)
         {
-            con.AbrirConexao();
+            try
+            {
+                String conString = WebConfigurationManager.ConnectionStrings["conexaoBD"].ConnectionString;
+                con.Connection(conString);
+                con.AbrirConexao();
+            }
+            catch (Exception erro) {
+                txtAcesso.Text = "Erro: " + erro.Message;
+            }
 
             String consultar_nome = "SELECT * FROM Medicos where nome='"+txtNome.Text+"'";
             if (con.ExecutarConsulta(consultar_nome) == 1)
