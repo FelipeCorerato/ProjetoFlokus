@@ -5,7 +5,7 @@ using System.Web;
 using System.Net.Mail;
 using System.Text.RegularExpressions;
 using System.Text;
-namespace ProjetoClinica.email
+namespace ProjetoPratica
 {
     public class EmailSender
     {
@@ -54,7 +54,7 @@ namespace ProjetoClinica.email
 
         private bool isValidEmail(string email)
         {
-            const string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])""|" + @"([-a-z0-9!#$%&'+/=?^_`{|}~]|(?<!\.)\.))(?<!\.)" + @"@[a-z0-9][\w\.-][a-z0-9]\.[a-z][a-z\.]*[a-z]$";
+            const string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|" + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)" + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
             var regex = new Regex(pattern, RegexOptions.IgnoreCase);
             return regex.IsMatch(email);
         }

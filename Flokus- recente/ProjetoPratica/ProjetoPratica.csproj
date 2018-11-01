@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Consultas.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.js" />
@@ -221,6 +222,13 @@
     </Compile>
     <Compile Include="Cabecalho.Master.designer.cs">
       <DependentUpon>Cabecalho.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

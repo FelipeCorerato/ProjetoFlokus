@@ -43,7 +43,7 @@
         {
     %>      
         <form id = "form2" runat = "server" class="form-inline my-2 my-lg-0">
-            <asp:Label ID = "lblMsg" runat="server" Text="0"></asp:Label>
+            <asp:Label ID = "lblMsg" runat="server" Text=""></asp:Label>
             <asp:TextBox class="form-control mr-sm-2" ID="txtAcesso" placeholder="Acesso" runat="server"></asp:TextBox>
             <asp:TextBox class="form-control mr-sm-2" ID="txtSenha" placeholder="Senha" runat="server" TextMode="Password"></asp:TextBox>
             <asp:Button ID = "btnLogin" runat="server" class="btn btn-outline-success my-2 my-sm-0" Text="Login" OnClick="btnLogin_Click" />
@@ -67,7 +67,7 @@
                                                 <div class="dropdown-menu dropdown-menu-right">
                                                     <a class="dropdown-item" href="sec_med.aspx">Medicos</a>
                                                     <a class="dropdown-item" href="sec_pac.aspx">Pacientes</a>
-                                                    <a class="dropdown-item" href="#">Consultas</a>
+                                                    <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="logoff.aspx">Log-off</a>
                                                 </div>
