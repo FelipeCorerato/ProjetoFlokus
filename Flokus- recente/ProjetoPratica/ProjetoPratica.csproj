@@ -162,6 +162,7 @@
     <Content Include="img\ico\save.png" />
     <Content Include="indexGeral.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="logoff.aspx" />
     <Content Include="medicos.aspx" />
     <Content Include="script.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -235,6 +236,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EmailSender.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -251,6 +253,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logoff.aspx.cs">
+      <DependentUpon>logoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logoff.aspx.designer.cs">
+      <DependentUpon>logoff.aspx</DependentUpon>
     </Compile>
     <Compile Include="medicos.aspx.cs">
       <DependentUpon>medicos.aspx</DependentUpon>
