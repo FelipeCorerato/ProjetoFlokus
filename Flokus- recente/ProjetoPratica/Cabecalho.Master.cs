@@ -59,17 +59,38 @@ namespace ProjetoPratica
                     // criando variavel de sessao
                     Session["Usuario"] = txtAcesso.Text;
 
+                    SqlCommand comando;
+                    string nome;
+
                     if (Convert.ToInt32(txtAcesso.Text) <= 9999)
                     {//e secretaria
                         Session["tipo"] = "Sec";
+
+                        comando = new SqlCommand("select nome from Secretaria where acesso=@ACESSO", acessoBD.getCon());
+                        comando.Parameters.AddWithValue("@ACESSO", txtAcesso.Text);
+
+                        nome = (string)comando.ExecuteScalar();
+                        Session["Nome"] = nome;
                     }
                     else if (Convert.ToInt32(txtAcesso.Text) >= 10000 && Convert.ToInt32(txtAcesso.Text) <= 19999)
                     {//e medico
                         Session["tipo"] = "Med";
+
+                        comando = new SqlCommand("select nome from Medico where acesso=@ACESSO", acessoBD.getCon());
+                        comando.Parameters.AddWithValue("@ACESSO", txtAcesso.Text);
+
+                        nome = (string)comando.ExecuteScalar();
+                        Session["Nome"] = nome;
                     }
                     else
                     {//e paciente
                         Session["tipo"] = "Pac";
+
+                        comando = new SqlCommand("select nome from Paciente where acesso=@ACESSO", acessoBD.getCon());
+                        comando.Parameters.AddWithValue("@ACESSO", txtAcesso.Text);
+
+                        nome = (string)comando.ExecuteScalar();
+                        Session["Nome"] = nome;
                     }
                     Response.Redirect("indexGeral.aspx");
                 }

@@ -58,20 +58,51 @@
 
 
                  %>
-            
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="DropdownUsuario" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <%= (String)Session["Nome"] %>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="sec_med.aspx">Medicos</a>
+                            <a class="dropdown-item" href="sec_pac.aspx">Pacientes</a>
+                            <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="logoff.aspx">Log-off</a>
+                        </div>
+                    </div>
+                <%
+             }
+             if (Session["tipo"].Equals("Med"))
+            {
 
-                                            <div class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" id="DropdownUsuario" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <%= (String)Session["Usuario"] %>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="sec_med.aspx">Medicos</a>
-                                                    <a class="dropdown-item" href="sec_pac.aspx">Pacientes</a>
-                                                    <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="logoff.aspx">Log-off</a>
-                                                </div>
-                                            </div>
+
+                 %>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="DropdownUsuario" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <%= (String)Session["Nome"] %>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="logoff.aspx">Log-off</a>
+                        </div>
+                    </div>
+                <%
+             }
+             if (Session["tipo"].Equals("Pac"))
+            {
+
+
+                 %>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="DropdownUsuario" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <%= (String)Session["Nome"] %>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="logoff.aspx">Log-off</a>
+                        </div>
+                    </div>
                 <%
              }
          }

@@ -197,6 +197,7 @@
     <Content Include="antigo.aspx" />
     <Content Include="sec_med.aspx" />
     <Content Include="sec_med_add.aspx" />
+    <Content Include="sec_pac.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -297,6 +298,13 @@
     </Compile>
     <Compile Include="sec_med_add.aspx.designer.cs">
       <DependentUpon>sec_med_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sec_pac.aspx.cs">
+      <DependentUpon>sec_pac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sec_pac.aspx.designer.cs">
+      <DependentUpon>sec_pac.aspx</DependentUpon>
     </Compile>
     <Compile Include="siples.Master.cs">
       <DependentUpon>siples.Master</DependentUpon>

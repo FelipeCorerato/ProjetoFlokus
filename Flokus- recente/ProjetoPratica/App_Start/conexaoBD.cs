@@ -15,6 +15,12 @@ namespace ProjetoPratica.App_Start
     public class conexaoBD
     {
         private SqlConnection con;
+
+        public SqlConnection getCon()
+        {
+            return con;
+        }
+
         private String ConnectionString { get; set; }
 
         public void Configuration(IAppBuilder app)
