@@ -10,7 +10,7 @@
 namespace ProjetoPratica {
     
     
-    public partial class Consultas {
+    public partial class agendarConsulta {
         
         /// <summary>
         /// Controle form1.
@@ -22,13 +22,13 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Controle btnEnviar.
+        /// Controle btnVoltar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEnviar;
+        protected global::System.Web.UI.WebControls.Button btnVoltar;
         
         /// <summary>
         /// Controle btnAgendar.
@@ -38,14 +38,5 @@ namespace ProjetoPratica {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnAgendar;
-        
-        /// <summary>
-        /// Controle btnVoltar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoltar;
     }
 }
