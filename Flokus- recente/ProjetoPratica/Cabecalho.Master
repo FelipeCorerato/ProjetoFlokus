@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cabecalho.master.cs" Inherits="ProjetoPratica.Cabecalho" %>
+﻿  <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cabecalho.master.cs" Inherits="ProjetoPratica.Cabecalho" %>
 
 <!DOCTYPE html>
 <html>

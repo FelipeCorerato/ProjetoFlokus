@@ -18,5 +18,10 @@ namespace ProjetoPratica
         {
             Response.Redirect("Consultas.aspx");
         }
+
+        protected void btnAgendar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

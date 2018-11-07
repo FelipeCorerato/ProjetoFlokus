@@ -78,7 +78,6 @@ namespace ProjetoPratica
                                                    dpdEspec.SelectedValue + "','" +
                                                    txtAcesso.Text+"')";
             con.ExecutaInsUpDel(cmd_m);
-
         }
     }
 }

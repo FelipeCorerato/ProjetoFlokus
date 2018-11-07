@@ -12,6 +12,20 @@
         <div>
             Listar consultas
             
+            
+
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+                <Columns>
+                    <asp:BoundField DataField="horario" HeaderText="horario" SortExpression="horario" />
+                    <asp:BoundField DataField="cpf_secretaria" HeaderText="cpf_secretaria" SortExpression="cpf_secretaria" />
+                    <asp:BoundField DataField="cpf_paciente" HeaderText="cpf_paciente" SortExpression="cpf_paciente" />
+                    <asp:BoundField DataField="crm" HeaderText="crm" SortExpression="crm" />
+                    <asp:BoundField DataField="agenda" HeaderText="agenda" SortExpression="agenda" />
+                </Columns>
+            </asp:GridView>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:PR317193ConnectionString %>" SelectCommand="SELECT [horario], [cpf_secretaria], [cpf_paciente], [crm], [agenda] FROM [Consulta]"></asp:SqlDataSource>
+            
+            
 
         </div>
         <p>

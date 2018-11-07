@@ -10,7 +10,7 @@
 namespace ProjetoPratica {
     
     
-    public partial class sec_pac {
+    public partial class sec_pac_add {
         
         /// <summary>
         /// Controle form1.
@@ -20,15 +20,6 @@ namespace ProjetoPratica {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// Controle btnVoltar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVoltar;
         
         /// <summary>
         /// Controle btnAdicionar.
