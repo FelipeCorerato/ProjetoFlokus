@@ -11,6 +11,8 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
+        <asp:Button ID="btnAdicionar" runat="server" Text="Adicionar" />
     </form>
 </body>
 </html>

@@ -156,6 +156,9 @@
     <Content Include="img\1.jpg" />
     <Content Include="img\2.jpg" />
     <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
     <Content Include="img\ico\add.png" />
     <Content Include="img\ico\close.png" />
     <Content Include="img\ico\delete.png" />

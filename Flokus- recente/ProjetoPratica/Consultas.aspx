@@ -16,6 +16,7 @@
         </div>
         <p>
             <asp:Button ID="btnEnviar" runat="server" OnClick="btnEnviar_Click" Text="Enviar" />
+            <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
         </p>
     </form>
 </body>
