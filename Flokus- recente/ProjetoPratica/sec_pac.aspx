@@ -14,7 +14,6 @@
             <asp:Button ID="btnAdicionar" runat="server" OnClick="btnAdicionar_Click1" Text="Adicionar" />
         </div>
 <<<<<<< HEAD
-<<<<<<< HEAD
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="cpf" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
@@ -40,8 +39,6 @@
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [cpf], [nome], [email], [nascimento], [telefone], [celular], [acesso] FROM [Paciente]"></asp:SqlDataSource>
 =======
 >>>>>>> bbcac8b938d1e80998435c416b5e1e4d426152e0
-=======
->>>>>>> parent of e3583ed... bonito
     </form>
 </body>
 </html>

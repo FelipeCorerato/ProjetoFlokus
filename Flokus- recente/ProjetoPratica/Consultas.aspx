@@ -29,13 +29,10 @@
         <p>
             <asp:Button ID="btnEnviar" runat="server" OnClick="btnEnviar_Click" Text="Enviar" />
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
             <asp:Button ID="btnAgendar" runat="server" OnClick="btnAgendar_Click" Text="Agendar Consulta" />
 >>>>>>> a6f1e508817b1cd359cdf7169ad6b061599cdcd2
             <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
-=======
->>>>>>> parent of e3583ed... bonito
         </p>
     </form>
 </body>

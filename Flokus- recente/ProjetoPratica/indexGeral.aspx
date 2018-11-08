@@ -14,20 +14,25 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/1.jpg" alt="Los Angeles">
+    <div class="item active" style="background-image: url(img/3.jpg); background-size: cover; width:100%; height:100%;">
+      <img src="img/3.jpg" alt="">
     </div>
 
-    <div class="item">
-      <img src="img/2.jpg" alt="Chicago">
+    <div class="item" style="background-image: url(img/4.jpg); background-size: cover; width:100%; height:100%;">
+      <img src="img/4.jpg" alt="">
     </div>
 
-    <div class="item">
-      <img src="img/3.jpg" alt="New York">
+    <div class="item" style="background-image: url(img/5.jpg); background-size: cover; width:100%; height:100%;">
+      <img src="img/5.jpg" alt="">
+    </div>
+
+     <div class="item" style="background-image: url(img/6.jpg); background-size: cover; width:100%; height:100%;">
+      <img src="img/6.jpg" alt="">
     </div>
   </div>
 
@@ -41,8 +46,5 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-    
-    <footer>
-        local, horario, entrar em contato
-    </footer>
+
 </asp:Content>
