@@ -38,7 +38,7 @@ namespace ProjetoPratica
             {
                 //digite todo os campos
                 Session["Erro"] = "1";
-                lblMsg.Text = "Digite todos os campos!";
+                lblMsg.Text = "Digite todos os campos!  ";
                 txtAcesso.Text = "";
                 txtSenha.Text = "";
             }
