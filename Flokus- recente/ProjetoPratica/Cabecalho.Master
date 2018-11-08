@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cabecalho.master.cs" Inherits="ProjetoPratica.Cabecalho" %>
+﻿  <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cabecalho.master.cs" Inherits="ProjetoPratica.Cabecalho" %>
 
 <!DOCTYPE html>
 <html>
@@ -99,6 +99,7 @@
                             <%= (String)Session["Nome"] %>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="logoff.aspx">Log-off</a>
                         </div>

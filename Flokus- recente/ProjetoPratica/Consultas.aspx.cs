@@ -22,6 +22,14 @@ namespace ProjetoPratica
             emailSender.sendEmail("fcorerato@gmail.com", "Ce tem consulta vei", "dados da consulta");
         }
 
+<<<<<<< HEAD
+=======
+        protected void btnAgendar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("agendarConsulta.aspx");
+        }
+
+>>>>>>> a6f1e508817b1cd359cdf7169ad6b061599cdcd2
         protected void btnVoltar_Click(object sender, EventArgs e)
         {
             Response.Redirect("indexGeral.aspx");

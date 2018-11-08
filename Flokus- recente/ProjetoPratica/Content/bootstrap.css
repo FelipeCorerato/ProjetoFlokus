@@ -3970,6 +3970,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin-bottom: 0px;
 }
 
 .navbar > .container,
@@ -4004,7 +4005,7 @@ input[type="button"].btn-block {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   list-style: none;
 }
 

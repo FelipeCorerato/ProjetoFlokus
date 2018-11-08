@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sec_pac.aspx.cs" Inherits="ProjetoPratica.sec_pac" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sec_pac_add.aspx.cs" Inherits="ProjetoPratica.sec_pac_add" %>
 
 <!DOCTYPE html>
 
@@ -10,11 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
             <asp:Button ID="btnAdicionar" runat="server" OnClick="btnAdicionar_Click" Text="Adicionar" />
         </div>
-        <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
-        <asp:Button ID="btnAdicionar" runat="server" Text="Adicionar" />
     </form>
 </body>
 </html>

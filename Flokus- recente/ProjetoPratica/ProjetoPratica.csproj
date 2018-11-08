@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="agendarConsulta.aspx" />
     <Content Include="Consultas.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -201,6 +202,7 @@
     <Content Include="sec_med.aspx" />
     <Content Include="sec_med_add.aspx" />
     <Content Include="sec_pac.aspx" />
+    <Content Include="sec_pac_add.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config">
@@ -210,6 +212,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="agendarConsulta.aspx.cs">
+      <DependentUpon>agendarConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="agendarConsulta.aspx.designer.cs">
+      <DependentUpon>agendarConsulta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -308,6 +317,13 @@
     </Compile>
     <Compile Include="sec_pac.aspx.designer.cs">
       <DependentUpon>sec_pac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sec_pac_add.aspx.cs">
+      <DependentUpon>sec_pac_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sec_pac_add.aspx.designer.cs">
+      <DependentUpon>sec_pac_add.aspx</DependentUpon>
     </Compile>
     <Compile Include="siples.Master.cs">
       <DependentUpon>siples.Master</DependentUpon>
