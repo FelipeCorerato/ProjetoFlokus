@@ -47,6 +47,7 @@ namespace ProjetoPratica {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnEnviar;
+<<<<<<< HEAD
         
         /// <summary>
 <<<<<<< HEAD
@@ -73,5 +74,7 @@ namespace ProjetoPratica {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnVoltar;
+=======
+>>>>>>> parent of e3583ed... bonito
     }
 }

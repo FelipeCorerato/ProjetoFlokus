@@ -13,6 +13,7 @@ namespace ProjetoPratica
         {
 
         }
+<<<<<<< HEAD
 
         protected void btnVoltar_Click1(object sender, EventArgs e)
         {
@@ -27,5 +28,7 @@ namespace ProjetoPratica
         {
             Response.Redirect("sec_pac_add.aspx");
         }
+=======
+>>>>>>> parent of e3583ed... bonito
     }
 }

@@ -21,6 +21,7 @@ namespace ProjetoPratica
 
             emailSender.sendEmail("fcorerato@gmail.com", "Ce tem consulta vei", "dados da consulta");
         }
+<<<<<<< HEAD
 
         protected void btnAgendar_Click(object sender, EventArgs e)
         {
@@ -31,5 +32,7 @@ namespace ProjetoPratica
         {
             Response.Redirect("indexGeral.aspx");
         }
+=======
+>>>>>>> parent of e3583ed... bonito
     }
 }
