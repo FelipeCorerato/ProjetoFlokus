@@ -7,6 +7,7 @@
 
         <div class="form-group">
 
+            <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
 
         </div>
 
