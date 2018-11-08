@@ -18,13 +18,11 @@ namespace ProjetoPratica
         {
             Response.Redirect("indexGeral.aspx");
         }
-<<<<<<< HEAD
-=======
+
 
         protected void btnAdicionar_Click(object sender, EventArgs e)
         {
             Response.Redirect("sec_pac_add.aspx");
         }
->>>>>>> a6f1e508817b1cd359cdf7169ad6b061599cdcd2
     }
 }
