@@ -15,7 +15,6 @@
                 Session["tipo"] = null;
                 Session["Erro"]    = null;
 
-
                 Response.Redirect("indexGeral.aspx");
             %>
         </div>

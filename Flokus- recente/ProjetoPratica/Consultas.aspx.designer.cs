@@ -49,8 +49,6 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.WebControls.Button btnEnviar;
         
         /// <summary>
-<<<<<<< HEAD
-=======
         /// Controle btnAgendar.
         /// </summary>
         /// <remarks>
@@ -60,7 +58,6 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.WebControls.Button btnAgendar;
         
         /// <summary>
->>>>>>> a6f1e508817b1cd359cdf7169ad6b061599cdcd2
         /// Controle btnVoltar.
         /// </summary>
         /// <remarks>

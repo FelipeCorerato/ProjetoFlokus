@@ -12,7 +12,6 @@
         <div>
             Listar consultas
             
-            
 
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
                 <Columns>
@@ -25,15 +24,10 @@
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:PR317193ConnectionString %>" SelectCommand="SELECT [horario], [cpf_secretaria], [cpf_paciente], [crm], [agenda] FROM [Consulta]"></asp:SqlDataSource>
             
-            
-
         </div>
         <p>
             <asp:Button ID="btnEnviar" runat="server" OnClick="btnEnviar_Click" Text="Enviar" />
-<<<<<<< HEAD
-=======
             <asp:Button ID="btnAgendar" runat="server" OnClick="btnAgendar_Click" Text="Agendar Consulta" />
->>>>>>> a6f1e508817b1cd359cdf7169ad6b061599cdcd2
             <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Voltar" />
         </p>
     </form>
