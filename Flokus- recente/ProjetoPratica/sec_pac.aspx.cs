@@ -18,10 +18,6 @@ namespace ProjetoPratica
         {
             Response.Redirect("indexGeral.aspx");
         }
-<<<<<<< HEAD
-
-=======
->>>>>>> bbcac8b938d1e80998435c416b5e1e4d426152e0
 
         protected void btnAdicionar_Click1(object sender, EventArgs e)
         {
