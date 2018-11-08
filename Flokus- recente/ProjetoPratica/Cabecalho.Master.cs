@@ -10,6 +10,7 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using ProjetoPratica.App_Start;
+
 namespace ProjetoPratica
 {
     public partial class Cabecalho : System.Web.UI.MasterPage

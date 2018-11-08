@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Configuration;
+using System.Text.RegularExpressions;
+using System.Text;
+using System.Data;
+using System.Data.SqlClient;
 using ProjetoPratica.App_Start;
 
 namespace ProjetoPratica
@@ -34,6 +38,8 @@ namespace ProjetoPratica
                 txtAcesso.Text = "Erro: " + erro.Message;
             }
 
+            SqlCommand comando;
+
             String consultar_nome = "SELECT * FROM Medicos where nome='"+txtNome.Text+"'";
             if (con.ExecutarConsulta(consultar_nome) == 1)
             {
@@ -55,7 +61,7 @@ namespace ProjetoPratica
                 RequiredFieldValidator3.Visible = true;
                 return;
             };
-            String consultar_acesso = "SELECT * FROM Medicos where acesso='" + txtAcesso.Text + "'";
+            String consultar_acesso = "SELECT * FROM Usuario where codAcesso='" + txtAcesso.Text + "'";
             if (con.ExecutarConsulta(consultar_acesso) == 1)
             {
                 RequiredFieldValidator6.Text = "Acesso já cadatrado";
@@ -63,21 +69,25 @@ namespace ProjetoPratica
                 return;
             };
 
+            comando = new SqlCommand("INSERT INTO Usuario VALUES(@nomeUsuario, @senha)", con.getCon());
+            comando.Parameters.AddWithValue("@nomeUsuario", txtAcesso.Text);
+            comando.Parameters.AddWithValue("@senha", txtSenha.Text);
 
+            comando.ExecuteNonQuery();
 
-            String cmd_a = "INSERT INTO Usuario VALUES('" + txtAcesso.Text + "','" + txtSenha.Text + "')";
-            con.ExecutaInsUpDel(cmd_a);
+            comando = new SqlCommand("INSERT INTO Medico VALUES(@crm, @nome, @nasc, @email, @celular, @tel, @espec, @acesso)", con.getCon());
+            comando.Parameters.AddWithValue("@crm", txtCRM.Text);
+            comando.Parameters.AddWithValue("@nome", txtNome.Text);
+            comando.Parameters.AddWithValue("@nasc", cldNasc.SelectedDate.ToString());
+            comando.Parameters.AddWithValue("@email", txtEmail.Text);
+            comando.Parameters.AddWithValue("@celular", txtCelular.Text);
+            comando.Parameters.AddWithValue("@tel", txtTelefone.Text);
+            comando.Parameters.AddWithValue("@espec", dpdEspec.SelectedValue);
+            comando.Parameters.AddWithValue("@acesso", txtAcesso.Text);
 
+            comando.ExecuteNonQuery();
 
-            String cmd_m="INSERT INTO Medico VALUES('"+txtCRM.Text + "','" +
-                                                   txtNome.Text + "','" +
-                                                   cldNasc.SelectedDate.ToString() + "','" +
-                                                   txtEmail.Text + "','" +
-                                                   txtCelular.Text + "','" +
-                                                   txtTelefone.Text +"'," +
-                                                   dpdEspec.SelectedValue + "','" +
-                                                   txtAcesso.Text+"')";
-            con.ExecutaInsUpDel(cmd_m);
+            Response.Redirect("sec_med.aspx");
         }
     }
 }

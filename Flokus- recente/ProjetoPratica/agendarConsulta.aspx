@@ -26,6 +26,7 @@
             <br />
             <asp:TextBox ID="txb_horario" runat="server" TextMode="Time"></asp:TextBox>
             <br />
+            <br />
         </div>
         <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         <br />
