@@ -13,22 +13,28 @@
             <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click" Text="Cancelar e voltar" />
             <br />
             <br />
-            <asp:TextBox ID="txb_cpf_sec" runat="server">cpf secretaria</asp:TextBox>
+            Secretaria responsável<br />
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="nome" DataValueField="Cpf">
+            </asp:DropDownList>
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [nome], [Cpf] FROM [Secretaria]"></asp:SqlDataSource>
             <br />
+            Paciente<br />
+            <asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource3" DataTextField="nome" DataValueField="cpf">
+            </asp:DropDownList>
+            <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [cpf], [nome] FROM [Paciente]"></asp:SqlDataSource>
             <br />
-            <asp:TextBox ID="txb_cpf_pac" runat="server">cpf paciente</asp:TextBox>
-            <br />
-            <br />
+            Médico:<br />
             <asp:DropDownList ID="ddl_medicos" runat="server" DataSourceID="SqlDataSource1" DataTextField="nome" DataValueField="crm">
             </asp:DropDownList>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [crm], [nome] FROM [Medico]"></asp:SqlDataSource>
-            <br />
-            <br />
-            <asp:TextBox ID="txb_horario" runat="server" TextMode="Time"></asp:TextBox>
-            <br />
+            Dia:<br />
+            <asp:TextBox ID="TextBox1" runat="server" TextMode="Date"></asp:TextBox>
             <br />
         </div>
-        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+        <br />
+        Horário:<br />
+        <asp:TextBox ID="TextBox2" runat="server" TextMode="Time"></asp:TextBox>
+        <br />
         <br />
             <asp:Button ID="btnAgendar" runat="server" Text="Agendar" OnClick="btnAgendar_Click" />
     </form>
