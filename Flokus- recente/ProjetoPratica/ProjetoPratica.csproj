@@ -60,6 +60,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -169,6 +170,7 @@
     <Content Include="login.aspx" />
     <Content Include="logoff.aspx" />
     <Content Include="medicos.aspx" />
+    <Content Include="Relatorios.aspx" />
     <Content Include="script.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -296,6 +298,13 @@
     </Compile>
     <Compile Include="antigo.aspx.designer.cs">
       <DependentUpon>antigo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios.aspx.cs">
+      <DependentUpon>Relatorios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relatorios.aspx.designer.cs">
+      <DependentUpon>Relatorios.aspx</DependentUpon>
     </Compile>
     <Compile Include="sec_med.aspx.cs">
       <DependentUpon>sec_med.aspx</DependentUpon>

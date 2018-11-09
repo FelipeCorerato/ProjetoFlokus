@@ -66,6 +66,8 @@
                             <a class="dropdown-item" href="sec_pac.aspx">Pacientes</a>
                             <a class="dropdown-item" href="Consultas.aspx">Consultas</a>
                             <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="Relatorios.aspx">Relatórios</a>
+                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="logoff.aspx">Log-off</a>
                         </div>
                     </div>
