@@ -30,7 +30,7 @@
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtEmail" ErrorMessage="E-mail Obrigatório" Font-Bold="True" ForeColor="Red"></asp:RequiredFieldValidator>
             <br />
             *Data de Nascimento:<br />
-            <asp:TextBox ID="TextBox1" runat="server" TextMode="Date"></asp:TextBox>
+            <asp:Calendar ID="cldNasc" runat="server"></asp:Calendar>
             <br />
             *Especialidade:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             (Novas Especialidades podem ser registradas na aba de &quot;Especialidades&quot; da aba Anterior)<br />

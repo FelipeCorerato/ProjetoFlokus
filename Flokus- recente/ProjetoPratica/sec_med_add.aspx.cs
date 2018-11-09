@@ -78,7 +78,7 @@ namespace ProjetoPratica
             comando = new SqlCommand("INSERT INTO Medico VALUES(@crm, @nome, @nasc, @email, @celular, @tel, @espec, @acesso)", con.getCon());
             comando.Parameters.AddWithValue("@crm", txtCRM.Text);
             comando.Parameters.AddWithValue("@nome", txtNome.Text);
-            comando.Parameters.AddWithValue("@nasc", TextBox1.Text);
+            comando.Parameters.AddWithValue("@nasc", cldNasc.SelectedDate.ToString());
             comando.Parameters.AddWithValue("@email", txtEmail.Text);
             comando.Parameters.AddWithValue("@celular", txtCelular.Text);
             comando.Parameters.AddWithValue("@tel", txtTelefone.Text);
