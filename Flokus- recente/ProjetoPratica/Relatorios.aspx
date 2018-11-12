@@ -31,7 +31,7 @@
             <br />
             <asp:Chart ID="Chart2" runat="server">
                 <series>
-                    <asp:Series Name="Series1">
+                    <asp:Series Name="Series1" ChartType="Pie">
                     </asp:Series>
                 </series>
                 <chartareas>
@@ -47,7 +47,7 @@ m.crm = c.crm GROUP BY m.nome
             <br />
             <asp:Chart ID="Chart3" runat="server" DataSourceID="SqlDataSourcePacientePorMedico">
                 <series>
-                    <asp:Series Name="Series1" XValueMember="nome" YValueMembers="pacientes">
+                    <asp:Series Name="Series1" XValueMember="nome" YValueMembers="pacientes" ChartType="Bar">
                     </asp:Series>
                 </series>
                 <chartareas>

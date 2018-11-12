@@ -7,12 +7,20 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using ProjetoPratica.App_Start;
 
 namespace ProjetoPratica
 {
     public partial class agendarConsulta : System.Web.UI.Page
     {
         conexaoBD con = new conexaoBD();
+<<<<<<< HEAD
+=======
+
+>>>>>>> c9699f43eaccba602eeb942b2e6d282ad7985faf
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -33,6 +41,7 @@ namespace ProjetoPratica
             }
             catch (Exception erro)
             {
+<<<<<<< HEAD
                 txtData.Text = "Erro: " + erro.Message;
             }
 
@@ -49,6 +58,21 @@ namespace ProjetoPratica
             comando.ExecuteNonQuery();
 
             Response.Redirect("Consultas.aspx");
+=======
+               
+            }
+        }
+
+        protected String dadosConsultaToString(String cpf_paciente)
+        {
+            //String nome_paciente, nome_medico, nome_secretaria, horario;
+            //SqlCommand comando;
+
+
+
+            //return "Bom dia, Sr(a). " + nome_paciente + "! \n" + "Este é um lembrete comunicando que está marcada uma consulta sua com o(a) Dr(a). " + nome_medico + "em dois dias a partir do envio deste " + " às " + horario + "\n" + "Atenciosamente, " + nome_secretaria + "ClinicaFlokus";
+            return "";
+>>>>>>> c9699f43eaccba602eeb942b2e6d282ad7985faf
         }
 
     }
