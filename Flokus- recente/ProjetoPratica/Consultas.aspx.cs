@@ -49,7 +49,7 @@ namespace ProjetoPratica
         protected String emailToString(String nome_medico, String horario, String nome_secretaria)
         {
 
-            return "Bom dia, Sr(a). " + nome_paciente + "! \n" +
+            return "Bom dia, Sr(a). "  + "! \n" +
                    "Este é um lembrete comunicando que está marcada uma consulta sua com o(a) Dr(a). " + nome_medico +
                    "em dois dias a partir do envio deste " + " às " + horario + "\n" + "Atenciosamente, " + nome_secretaria + "ClinicaFlokus";
         }
@@ -71,15 +71,29 @@ namespace ProjetoPratica
 
         protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            int index = Convert.ToInt32(e.CommandArgument);
-            int codConsulta = Convert.ToInt32(GridView1.SelectedRow.Cells[0].Text);
-
+            SqlCommand comando;
+            string nomeMedico, horarioConsulta;
             conexaoBD con = new conexaoBD();
-            con.ExecutarConsulta("SELECT crm, horario from Consulta where codConsulta = " + codConsulta);
+
+            String conString = WebConfigurationManager.ConnectionStrings["conexaoBD"].ConnectionString;
+            con.Connection(conString);
+            con.AbrirConexao();
+
+            comando = new SqlCommand("SELECT nome from Medico where crm IN (SELECT crm from Consulta where codConsulta = @COD)", con.getCon());
+
+            int index = Convert.ToInt32(e.CommandArgument);
+            GridViewRow row = GridView1.Rows[index];
+            //Convert.ToInt32(e.CommandArgument)
+            comando.Parameters.AddWithValue("@COD", row.Cells[0].Text);
+            nomeMedico = (string)comando.ExecuteScalar();
+
+            horarioConsulta = row.Cells[1].Text;
 
             EmailSender emailSender = new EmailSender("clinicaflokus@gmail.com", "Senha123");
 
-            emailSender.sendEmail("fcorerato@gmail.com", "Você possui uma consulta na Flokus em breve!", "dados da consulta");
+            emailSender.sendEmail("fcorerato@gmail.com", "Você possui uma consulta na Flokus em breve!", "Aqui estão os dados da sua consulta: \n \n" +
+                                                                                                         "Nome do Médico: " + nomeMedico + " | \n" +
+                                                                                                         "Horário da Consulta: " + horarioConsulta);
 
 
             //btnEnviar_Click(sender, e);

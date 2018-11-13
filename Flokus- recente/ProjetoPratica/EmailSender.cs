@@ -43,6 +43,7 @@ namespace ProjetoPratica
             {
                 MailMessage mm = new MailMessage(this.email, emailTo, subject, body);
                 mm.BodyEncoding = UTF8Encoding.UTF8;
+                mm.IsBodyHtml = true;
                 mm.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
                 client.Send(mm);
             }
