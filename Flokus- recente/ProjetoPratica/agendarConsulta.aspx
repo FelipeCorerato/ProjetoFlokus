@@ -22,6 +22,8 @@
             <asp:DropDownList ID="ddl_medicos" runat="server" DataSourceID="SqlDataSource1" DataTextField="nome" DataValueField="crm" OnSelectedIndexChanged="ddl_medicos_SelectedIndexChanged">
             </asp:DropDownList>
             <br />
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [crm], [nome] FROM [Medico]"></asp:SqlDataSource>
+            <br />
             <br />
             Paciente:<br />
             <asp:DropDownList ID="DropDownList2" runat="server" DataSourceID="SqlDataSource3" DataTextField="nome" DataValueField="cpf">
@@ -29,7 +31,6 @@
             <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [cpf], [nome] FROM [Paciente]"></asp:SqlDataSource>
             <br />
             <br />
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [crm], [nome] FROM [Medico]"></asp:SqlDataSource>
             Data:<br />
             <asp:TextBox ID="txtData" runat="server" TextMode="Date"></asp:TextBox>
             <br />

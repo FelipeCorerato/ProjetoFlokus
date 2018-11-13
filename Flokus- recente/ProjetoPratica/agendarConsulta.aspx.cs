@@ -17,10 +17,7 @@ namespace ProjetoPratica
     public partial class agendarConsulta : System.Web.UI.Page
     {
         conexaoBD con = new conexaoBD();
-<<<<<<< HEAD
-=======
 
->>>>>>> c9699f43eaccba602eeb942b2e6d282ad7985faf
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -41,26 +38,26 @@ namespace ProjetoPratica
             }
             catch (Exception erro)
             {
-<<<<<<< HEAD
                 txtData.Text = "Erro: " + erro.Message;
             }
 
             SqlCommand comando;
 
-            comando = new SqlCommand("INSERT INTO Consulta VALUES(@hora, @sec, @pac, @med, @age,)", con.getCon());
+            //comando = new SqlCommand("INSERT INTO Agenda VALUES(@med)", con.getCon());
+            //comando.Parameters.AddWithValue("@med", ddl_medicos.SelectedValue);
+            //comando.ExecuteNonQuery();
+
+            comando = new SqlCommand("INSERT INTO Consulta VALUES(@hora, @sec, @pac, @med, @age)", con.getCon());
             comando.Parameters.AddWithValue("@hora", txtData.Text+txtHora.Text);
-            comando.Parameters.AddWithValue("@sec", DropDownList1.SelectedIndex);
-            comando.Parameters.AddWithValue("@pac", DropDownList2.SelectedIndex);
-            comando.Parameters.AddWithValue("@med", ddl_medicos.SelectedIndex);
-            comando.Parameters.AddWithValue("@age", "!");
-            
+            comando.Parameters.AddWithValue("@sec", DropDownList1.SelectedValue);
+            comando.Parameters.AddWithValue("@pac", DropDownList2.SelectedValue);
+            comando.Parameters.AddWithValue("@med", ddl_medicos.SelectedValue);
+            comando.Parameters.AddWithValue("@age", null);
 
             comando.ExecuteNonQuery();
 
-            Response.Redirect("Consultas.aspx");
-=======
-               
-            }
+            Response.Redirect("Consultas.aspx");               
+            
         }
 
         protected String dadosConsultaToString(String cpf_paciente)
@@ -72,8 +69,11 @@ namespace ProjetoPratica
 
             //return "Bom dia, Sr(a). " + nome_paciente + "! \n" + "Este é um lembrete comunicando que está marcada uma consulta sua com o(a) Dr(a). " + nome_medico + "em dois dias a partir do envio deste " + " às " + horario + "\n" + "Atenciosamente, " + nome_secretaria + "ClinicaFlokus";
             return "";
->>>>>>> c9699f43eaccba602eeb942b2e6d282ad7985faf
         }
 
+        protected void ddl_medicos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
