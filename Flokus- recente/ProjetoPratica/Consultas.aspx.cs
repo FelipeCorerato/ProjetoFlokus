@@ -15,7 +15,7 @@ namespace ProjetoPratica
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            GridView1.HeaderRow.TableSection = TableRowSection.TableHeader;
         }
 
         protected void btnEnviar_Click(object sender, EventArgs e)
@@ -72,7 +72,7 @@ namespace ProjetoPratica
         protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             SqlCommand comando;
-            string nomeMedico, horarioConsulta;
+            string nomeMedico, horarioConsulta, emailPaciente;
             conexaoBD con = new conexaoBD();
 
             String conString = WebConfigurationManager.ConnectionStrings["conexaoBD"].ConnectionString;
@@ -87,11 +87,15 @@ namespace ProjetoPratica
             comando.Parameters.AddWithValue("@COD", row.Cells[0].Text);
             nomeMedico = (string)comando.ExecuteScalar();
 
+            comando = new SqlCommand("SELECT email from Paciente where cpf IN (SELECT cpf from Consulta where codConsulta = @COD)", con.getCon());
+            comando.Parameters.AddWithValue("@COD", row.Cells[0].Text);
+            emailPaciente = (string)comando.ExecuteScalar();
+
             horarioConsulta = row.Cells[1].Text;
 
             EmailSender emailSender = new EmailSender("clinicaflokus@gmail.com", "Senha123");
 
-            emailSender.sendEmail("fcorerato@gmail.com", "Você possui uma consulta na Flokus em breve!", "Aqui estão os dados da sua consulta: \n \n" +
+            emailSender.sendEmail(emailPaciente, "Você possui uma consulta na Flokus em breve!", "Aqui estão os dados da sua consulta: \n \n" +
                                                                                                          "Nome do Médico: " + nomeMedico + " | \n" +
                                                                                                          "Horário da Consulta: " + horarioConsulta);
 

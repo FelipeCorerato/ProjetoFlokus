@@ -31,15 +31,6 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.WebControls.Button btnVoltar;
         
         /// <summary>
-        /// Controle btnAdicionar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdicionar;
-        
-        /// <summary>
         /// Controle GridView1.
         /// </summary>
         /// <remarks>
@@ -56,5 +47,14 @@ namespace ProjetoPratica {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        
+        /// <summary>
+        /// Controle btnAdicionar.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdicionar;
     }
 }
