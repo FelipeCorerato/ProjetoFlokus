@@ -12,7 +12,7 @@
 <body style="background-color:#5b5b5b">
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click1" Text="Voltar" class="btn btn-primary"/>
+            <asp:Button ID="btnVoltar" runat="server" OnClick="btnVoltar_Click1" Text="Voltar" CssClass="btn btn-primary"/>
             <br />
             <br />
             <div class="table-responsive">

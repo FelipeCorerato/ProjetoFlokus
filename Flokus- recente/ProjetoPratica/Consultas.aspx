@@ -25,7 +25,7 @@
                         <asp:BoundField DataField="crm" HeaderText="crm" SortExpression="crm" />
                         <asp:BoundField DataField="agenda" HeaderText="agenda" SortExpression="agenda" />
                         <asp:ButtonField ButtonType="Button" HeaderText="enviar e-mail" Text="Enviar" ControlStyle-CssClass="btn btn-primary">
-<ControlStyle CssClass="btn btn-primary"></ControlStyle>
+                        <ControlStyle CssClass="btn btn-primary"></ControlStyle>
                         </asp:ButtonField>
                     </Columns>
                 </asp:GridView>
