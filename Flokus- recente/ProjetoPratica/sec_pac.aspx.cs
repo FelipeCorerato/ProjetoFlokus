@@ -11,7 +11,7 @@ namespace ProjetoPratica
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            GridView1.HeaderRow.TableSection = TableRowSection.TableHeader;
         }
 
         protected void btnVoltar_Click1(object sender, EventArgs e)

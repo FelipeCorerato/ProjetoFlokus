@@ -9,7 +9,7 @@
     
     <asp:Button ID="btnAdd" runat="server" OnClick="btnAdd_Click" Text="Adicionar" />
     <br />
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" CellPadding="3" CellSpacing="1" DataKeyNames="crm" DataSourceID="SDS_teste" GridLines="None" AllowPaging="True" AllowSorting="True" Height="282px" Width="1175px">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="crm" DataSourceID="SDS_teste" AllowPaging="True" AllowSorting="True" Height="282px" Width="1175px">
         <Columns>
             <asp:BoundField DataField="acesso" HeaderText="Acesso" SortExpression="acesso" />
             <asp:BoundField DataField="crm" HeaderText="CRM" SortExpression="crm" ReadOnly="True" />
@@ -20,24 +20,15 @@
             <asp:BoundField DataField="telefone" HeaderText="Telefone" SortExpression="telefone" />
             <asp:BoundField DataField="celular" HeaderText="Celular" SortExpression="celular" />
         </Columns>
-        <FooterStyle BackColor="#C6C3C6" ForeColor="Black" />
-        <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#E7E7FF" />
-        <PagerStyle BackColor="#C6C3C6" ForeColor="Black" HorizontalAlign="Right" />
-        <RowStyle BackColor="#DEDFDE" ForeColor="Black" />
-        <SelectedRowStyle BackColor="#9471DE" Font-Bold="True" ForeColor="White" />
-        <SortedAscendingCellStyle BackColor="#F1F1F1" />
-        <SortedAscendingHeaderStyle BackColor="#594B9C" />
-        <SortedDescendingCellStyle BackColor="#CAC9C9" />
-        <SortedDescendingHeaderStyle BackColor="#33276A" />
     </asp:GridView>
     <asp:SqlDataSource ID="SDS_teste" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" SelectCommand="SELECT [crm], [nome], [nascimento], [email], [telefone], [celular], [acesso],
-STUFF((
-    SELECT ', ' + [nome] 
-    FROM Especialidade
-    WHERE (cod = Medico.especialidade) 
-    FOR XML PATH(''),TYPE).value('(./text())[1]','VARCHAR(MAX)')
-  ,1,2,'') AS especialidade 
-  FROM [Medico]"></asp:SqlDataSource>
+        STUFF((
+        SELECT ', ' + [nome] 
+        FROM Especialidade
+        WHERE (cod = Medico.especialidade) 
+        FOR XML PATH(''),TYPE).value('(./text())[1]','VARCHAR(MAX)')
+        ,1,2,'') AS especialidade 
+        FROM [Medico]"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SDS_Medico" runat="server" ConnectionString="<%$ ConnectionStrings:conexaoBD %>" DeleteCommand="DELETE FROM [Medico] WHERE [crm] = @crm" InsertCommand="INSERT INTO [Medico] ([crm], [nome], [nascimento], [email], [telefone], [celular], [especialidade], [acesso]) VALUES (@crm, @nome, @nascimento, @email, @telefone, @celular, @especialidade, @acesso)" SelectCommand="SELECT [crm], [nome], [nascimento], [email], [telefone], [celular], [especialidade], [acesso] FROM [Medico]" UpdateCommand="UPDATE [Medico] SET [nome] = @nome, [nascimento] = @nascimento, [email] = @email, [telefone] = @telefone, [celular] = @celular, [especialidade] = @especialidade, [acesso] = @acesso WHERE [crm] = @crm">
         <DeleteParameters>
             <asp:Parameter Name="crm" Type="String" />
@@ -66,3 +57,4 @@ STUFF((
     <br />
 &nbsp;
 </asp:Content>
+

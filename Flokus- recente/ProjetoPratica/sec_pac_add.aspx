@@ -15,10 +15,10 @@
             <center>
                 <div style="width:38%; background-color:#ffffff;">
                     <br />
-                    <div style="padding-left:3%;"><asp:Button ID="btnVoltar" runat="server" OnClick="btnCancelar_Click" Text="Cancelar e Voltar" CssClass="btn btn-danger float-left"/></div>
+                    <div style="padding-left:3%;"><asp:Button ID="btnCancelar" runat="server" OnClick="btnCancelar_Click" Text="Cancelar e Voltar" CausesValidation="False" CssClass="btn btn-danger float-left"/></div>
                     <br />
                     <br />
-                    <h1><span class = "label label-default">Os campos com *<br />são obrigatórios</span><span class="badge">Preencha-os</span></h1>
+                    <h1><span class = "label label-default">Os campos com * são obrigatórios </span><span class="badge badge-secondary">Preencha-os</span></h1>
                     <br />
                     *Nome:<br />
                     <asp:TextBox ID="txtNome" runat="server" Width="90%" MaxLength="50"></asp:TextBox>
