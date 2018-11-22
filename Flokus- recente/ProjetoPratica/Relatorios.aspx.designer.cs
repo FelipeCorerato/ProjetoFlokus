@@ -49,13 +49,13 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.DataVisualization.Charting.Chart Chart1;
         
         /// <summary>
-        /// Controle SqlDataSource1.
+        /// Controle SqlDataAtendimentoPorEspecialidade.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataAtendimentoPorEspecialidade;
         
         /// <summary>
         /// Controle Chart2.
@@ -85,13 +85,13 @@ namespace ProjetoPratica {
         protected global::System.Web.UI.DataVisualization.Charting.Chart Chart3;
         
         /// <summary>
-        /// Controle SqlDataSource3.
+        /// Controle SqlDataSourceConsultasCanceladasPorMedico.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceConsultasCanceladasPorMedico;
         
         /// <summary>
         /// Controle Chart4.

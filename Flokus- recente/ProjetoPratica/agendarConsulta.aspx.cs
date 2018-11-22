@@ -47,12 +47,20 @@ namespace ProjetoPratica
             //comando.Parameters.AddWithValue("@med", ddl_medicos.SelectedValue);
             //comando.ExecuteNonQuery();
 
-            comando = new SqlCommand("INSERT INTO Consulta VALUES(@hora, @sec, @pac, @med, @age)", con.getCon());
-            comando.Parameters.AddWithValue("@hora", txtData.Text+txtHora.Text);
+            comando = new SqlCommand("SELECT COUNT(*) FROM Consulta", con.getCon());
+            int qtd = (int)comando.ExecuteScalar() + 1;
+
+            comando = new SqlCommand("SELECT codAgenda From Agenda where crm = @crm", con.getCon());
+            comando.Parameters.AddWithValue("@crm", ddl_medicos.SelectedValue);
+            string agenda = (string)comando.ExecuteScalar();
+
+            comando = new SqlCommand("INSERT INTO Consulta VALUES(@qtd, @hora, @sec, @pac, @med, @age)", con.getCon());
+            comando.Parameters.AddWithValue("@qtd", qtd);
+            comando.Parameters.AddWithValue("@hora", txtData.Text+" "+txtHora.Text);
             comando.Parameters.AddWithValue("@sec", DropDownList1.SelectedValue);
             comando.Parameters.AddWithValue("@pac", DropDownList2.SelectedValue);
             comando.Parameters.AddWithValue("@med", ddl_medicos.SelectedValue);
-            comando.Parameters.AddWithValue("@age", null);
+            comando.Parameters.AddWithValue("@age", agenda);
 
             comando.ExecuteNonQuery();
 

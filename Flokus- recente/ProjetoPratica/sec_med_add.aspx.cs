@@ -87,6 +87,15 @@ namespace ProjetoPratica
 
             comando.ExecuteNonQuery();
 
+            comando = new SqlCommand("SELECT COUNT(*) FROM Agenda", con.getCon());
+            int qtd = (int)comando.ExecuteScalar() + 1;
+
+            comando = new SqlCommand("INSERT INTO Agenda VALUES(@qtd, @crm)", con.getCon());
+            comando.Parameters.AddWithValue("@qtd", qtd);
+            comando.Parameters.AddWithValue("@crm", txtCRM.Text);
+
+            comando.ExecuteNonQuery();
+
             Response.Redirect("sec_med.aspx");
         }
     }

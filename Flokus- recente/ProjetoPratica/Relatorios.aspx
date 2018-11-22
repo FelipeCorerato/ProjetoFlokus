@@ -27,9 +27,9 @@
                     </asp:ChartArea>
                 </chartareas>
             </asp:Chart>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+            <asp:SqlDataSource ID="SqlDataAtendimentoPorEspecialidade" runat="server"></asp:SqlDataSource>
             <br />
-            <asp:Chart ID="Chart2" runat="server">
+            <asp:Chart ID="Chart2" runat="server" DataSourceID="SqlDataAtendimentoPorEspecialidade">
                 <series>
                     <asp:Series Name="Series1" ChartType="Pie">
                     </asp:Series>
@@ -56,8 +56,8 @@ m.crm = c.crm GROUP BY m.nome
                 </chartareas>
             </asp:Chart>
             <br />
-            <asp:SqlDataSource ID="SqlDataSource3" runat="server"></asp:SqlDataSource>
-            <asp:Chart ID="Chart4" runat="server">
+            <asp:SqlDataSource ID="SqlDataSourceConsultasCanceladasPorMedico" runat="server"></asp:SqlDataSource>
+            <asp:Chart ID="Chart4" runat="server" DataSourceID="SqlDataSourceConsultasCanceladasPorMedico">
                 <series>
                     <asp:Series Name="Series1">
                     </asp:Series>
